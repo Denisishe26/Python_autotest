@@ -11,4 +11,4 @@ def test_status_code():
 
 def test_trainer_name():
     responce = requests.get(url = f'{URL}/trainers', params = {'trainer_id': TRAINER_ID} )  
-    assert responce.json()['data'][0]['trainer_name'] == 'Carter'
+    assert responce.json()['data'][0]['trainer_name'] == 'ПокеБоул'
